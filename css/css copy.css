@@ -1,0 +1,201 @@
+/* This is css :) */
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #f4f1de;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1{
+    font-family: 'Gloock', serif;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 500;
+}
+h2{
+    font-family: 'Gloock', serif;
+    color: #e07a5f;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+h3{
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 0.3em;
+}
+
+h4{
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+h5{
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 1.25em;
+  font-weight: 450;
+  font-style: italic;
+}
+
+.nav{
+    background-color: #3d405b;
+    color: #f2cc8f;
+    margin-bottom: 2em;
+  }
+
+  .nav-link{
+    color: #f2cc8f;
+  }
+
+  .nav a:hover{
+    text-decoration: underline #f2cc8f;
+    color: #f2cc8f;
+  }
+
+  .nav-item{
+    color: #f2cc8f;
+    margin-right: 3em;
+
+  }
+
+  .leftalign{
+    justify-content: left;
+  }
+
+  footer{
+    padding-top: 1em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: auto;
+    background-color: #3d405b;
+    color: #f4f1de;
+    line-height: 0.5;
+    font-size: smaller;
+  }
+
+  .container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.filler {
+  flex: 1;
+}
+
+/* Homepage Specific */
+
+  .white-house{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3em;
+  }
+  
+  .pics{
+    margin-bottom: 2em;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  abme{
+    margin-left: 2em;
+  }
+
+  .fa-twitter {
+  background: #55ACEE;
+  color: white;
+  }
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+} 
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  }
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  }
+
+.btn{
+  background-color: #3d405b;
+  }
+
+/* Resume CSS */
+
+.topresume{
+  margin-top: 0.75em;
+  margin-bottom: 0;
+}
+
+.resume{
+  margin-bottom: 0;
+}
+
+/* Writing CSS */
+
+.card{
+  background-color: white;
+  height: 200;
+  width: 300px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.clip-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.clip-link:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.clip-item {
+  color: #000000;
+  padding-left: 1em;
+  margin-bottom: 0.5em;
+}
+
+
+.carousel-inner {
+  width: 20px;
+  height: 20px;
+  overflow: hidden; /* Ensures content doesn't spill out of the container */
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Ensures the entire image fits within the defined space */
+  object-position: center; /* Centers the image within the container */
+  background-color: black; /* Optional: Adds a black background to fill empty space */
+}
+
+
+/* MEDIA CSS */
+
+
+
+
